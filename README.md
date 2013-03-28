@@ -12,3 +12,8 @@ When file chunks are received by the host they generate a one-time key, send it 
 * No host has more than one chunk of a file. 
 * No host receives the initial encryption key. 
 * Hosts only specify their space and connection constraints.
+
+##Requirements##
+Python3
+PyCrypto -- https://github.com/dlitz/pycrypto
+Tornado  -- https://github.com/facebook/tornado
